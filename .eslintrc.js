@@ -5,11 +5,15 @@ module.exports = {
     tsconfigRootDir: __dirname,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint/eslint-plugin'],
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+  plugins: [
+    '@typescript-eslint', // TypeScript plugin to enable linting of TypeScript code
+    'prettier', // Prettier plugin to integrate Prettier formatting rules with ESLint
   ],
+  extends: [
+    'plugin:@typescript-eslint/recommended', // Recommended TypeScript linting rules
+    'plugin:prettier/recommended', // Integrates Prettier with ESLint and displays Prettier errors as ESLint errors
+    'prettier', // Disables all ESLint rules that are unnecessary or might conflict with Prettier
+],
   root: true,
   env: {
     node: true
@@ -20,5 +24,6 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    'newline-before-return': 'error',
   },
 };
