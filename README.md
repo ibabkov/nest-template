@@ -23,7 +23,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-Open [http://localhost:3000/v1/get-hello-world](http://localhost:3000/v1/get-hello-world) with your browser to see the result.
+Open [http://localhost:3000/v1/get-hello-world](http://x:3000/v1/get-hello-world) with your browser to see the result.
 
 ## License
 
