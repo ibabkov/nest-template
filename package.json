@@ -19,28 +19,28 @@
     "update": "npx ncu"
   },
   "dependencies": {
-    "@nestjs/common": "^11.1.21",
-    "@nestjs/core": "^11.1.21",
-    "@nestjs/platform-express": "^11.1.21",
+    "@nestjs/common": "^12.0.1",
+    "@nestjs/core": "^12.0.1",
+    "@nestjs/platform-express": "^12.0.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@nestjs/cli": "^11.0.21",
-    "@nestjs/schematics": "^11.1.0",
+    "@nestjs/cli": "^12.0.0",
+    "@nestjs/schematics": "^12.0.0",
     "@types/express": "^5.0.6",
-    "@types/node": "^24.12.4",
+    "@types/node": "^26.4.0",
     "@typescript-eslint/eslint-plugin": "^8.59.3",
-    "eslint": "8.57.0",
+    "eslint": "10.9.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.5",
-    "npm-check-updates": "^22.2.0",
+    "npm-check-updates": "^23.1.0",
     "prettier": "^3.8.3",
     "source-map-support": "^0.5.21",
     "ts-loader": "^9.5.7",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }
